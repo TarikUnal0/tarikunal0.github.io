@@ -58,6 +58,12 @@ header{
         
 }
 
+.tekst{
+    text-align: center;
+    padding: 100px;
+    font-family: monospace;
+}
+
 body{
-    background-color: darkgrey;
+    background-color: rgba(109, 109, 109, 0.397);;
 }

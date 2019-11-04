@@ -4,14 +4,14 @@ footer{
     bottom: 0;
     width: 100%;
     height: 4%;
-    border: 2px solid #e7e7e7;
-    background-color: #f3f3f3;
+    border: 2px solid black;
+    background-color: #262626;
     text-align: center;
 }
 
 .footer a{ 
     text-decoration: none;
-    color: #666;
+    color: white;
     font-size: 105%;
 
 }
@@ -19,19 +19,27 @@ footer{
 li{ 
     list-style-type: none;
     display: block;
-
+    border-right: 4px solid black;
 }
 
 li a{
+    margin-left: 0px;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #666;
-    margin-right: 20px;
 }
 
+li a:hover{
+    background-color: #666;
+    transition: 0.5s;
+}
+ 
 header{ 
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-    height: 60px;
+    border: 2px solid black;
+    background-color: #262626;
+    height: 59px;
 }
 .menu{
     display: flex;
@@ -42,13 +50,10 @@ header{
     flex-direction: row;
     font-size: 25px;
     text-align: center;
-    width: 550px;
-    
-        
-}
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
+    overflow: none;
 
-.menu a{
-    border: 3px solid grey;
-    border-radius: 5px;
-    
+        
 }

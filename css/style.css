@@ -71,3 +71,23 @@ body{
 .contact{
     font-family: monospace;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+form{
+    color: white;
+}

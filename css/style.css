@@ -124,3 +124,15 @@ form{
     flex-direction: column;
     padding-left: 100px;
 }
+
+li{
+    color: white;
+}
+
+.hobbys h3{
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+    
+}

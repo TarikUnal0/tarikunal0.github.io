@@ -91,3 +91,36 @@ h3{
 form{
     color: white;
 }
+
+.projecten h2{
+    text-align: center;
+    padding: 100px;
+    font-family: monospace;
+}
+
+.projecttekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.projecttekst h3{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.project1{
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project2{
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 100px;
+}

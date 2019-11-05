@@ -16,13 +16,13 @@ footer{
 
 }
 
-li{ 
+.menu li{ 
     list-style-type: none;
     display: block;
     border-right: 4px solid black;
 }
 
-li a{
+.menu li a{
     margin-left: 0px;
     display: block;
     color:white;
@@ -31,7 +31,7 @@ li a{
     text-decoration: none;
 }
 
-li a:hover{
+.menu li a:hover{
     background-color: #666;
     transition: 0.5s;
 }
@@ -129,6 +129,26 @@ li{
     color: white;
 }
 
+.hobbys ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 200px;
+    text-decoration: none;
+    width: 500px;
+
+}
+.hobbys li{
+    padding-right: 100px;
+    list-style-type: none;
+}
+.hobbys a{
+    text-decoration: none;
+    color: white;
+    
+
+}
 .hobbys h3{
     color:white;
     display: flex;
@@ -142,4 +162,17 @@ li{
     display: flex;
     align-items: center;
     flex-direction: column;   
+}
+
+.hobbys li img{
+    width:200px;
+    height: 200px;
+}
+
+#mw{
+    
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+      
 }

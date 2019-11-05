@@ -136,3 +136,10 @@ li{
     flex-direction: column;    
     
 }
+
+.vaardigheden {
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}

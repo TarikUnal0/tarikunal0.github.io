@@ -67,3 +67,7 @@ header{
 body{
     background-color: rgba(109, 109, 109, 0.397);;
 }
+
+.contact{
+    font-family: monospace;
+}
